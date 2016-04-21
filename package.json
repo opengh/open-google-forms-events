@@ -1,0 +1,28 @@
+{
+  "name": "open-google-forms-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap -- test/*.js",
+    "quick": "tap -- test/*.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "open-event",
+    "open-data",
+    "google-forms"
+  ],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tap": "^5.7.0"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.3",
+    "open-event": "^1.0.0",
+    "tabletop": "^1.4.3",
+    "tz-lookup": "^6.0.2"
+  }
+}
